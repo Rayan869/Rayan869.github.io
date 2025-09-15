@@ -1,3 +1,21 @@
 body {
     background-color: blue;
 }
+ul {
+  list-style: none;        /* geen bolletjes */
+  margin: 0;
+  padding: 0;
+  background: #333;        /* donkere balk */
+  display: flex;           /* naast elkaar */
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background: #555;        /* iets lichter bij hover */
+}
