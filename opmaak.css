@@ -1,6 +1,4 @@
-body {
-    background-color: green;
-}
+body 
 ul {
   list-style: none;        /* geen bolletjes */
   margin: 0;
@@ -9,37 +7,32 @@ ul {
   display: flex;           /* naast elkaar */
 }
 
-ul li a {
-  display: block;
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
+ HEAD
+h1 {
+color: chocolate (109, 235, 13);
+margin-left: 20px;
 }
+
 ul {
-  list-style-type: none;       /* geen bolletjes */
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;            /* houdt alles netjes */
-  background-color: #333333;   /* donkergrijze achtergrond */
-  border-radius: 10px;         /* afgeronde hoeken van het menu */
+   overflow: hidden;
+  background-color: #1d1c1c;
 }
 
 ul li {
-  float: left;                 /* horizontaal naast elkaar */
+  float: left;
 }
 
 ul li a {
   display: block;
-  color: white;                /* tekst wit */
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.3s;            /* soepele hover overgang */
 }
 
 ul li a:hover {
-  background-color: #ff6600;   /* oranje bij hover */
-  color: #fff;                 /* blijft wit bij hover */
-  border-radius: 10px;         /* afgeronde hoeken bij hover */
+  background-color: #41bd14;
 }
-
