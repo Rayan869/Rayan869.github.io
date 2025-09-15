@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: green;
 }
 ul {
   list-style: none;        /* geen bolletjes */
@@ -16,6 +16,4 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background: #555;        /* iets lichter bij hover */
-}
+
